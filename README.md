@@ -257,15 +257,6 @@ npx deepspace releases      # release ledger
 npx deepspace rollback <release-id>
 ```
 
-### URL history
-
-Releases up to #14 were served at `routeready-ai.app.space`. The app was then
-renamed in place (`name = "beforemiles"` in `wrangler.toml`,
-`npx deepspace deploy --rename`), moving it to `beforemiles.app.space`. The
-app id `app_01M46SX8S4H1XGF30TX0PXJWM0`, data, storage, collaborators, and
-repository stayed with the app. Per the platform, the previous subdomain is
-reserved for the owner for 30 days after a rename.
-
 ### Source code
 
 - **Public review copy (GitHub):** https://github.com/RaghavendraLingala/beforemiles — anyone can read it without
