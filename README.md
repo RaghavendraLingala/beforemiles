@@ -7,8 +7,6 @@ you work through a Trip Readiness Report (AI-generated), a shared checklist with
 assignments, useful stops, an itinerary, private trip documents, and a "What am
 I missing?" review of the plan.
 
-*Formerly "RouteReady AI". The rename kept the same app: its app id, data, and
-repository are unchanged.*
 
 It is a readiness layer, not a navigation app: no maps, live traffic, or live
 weather.
