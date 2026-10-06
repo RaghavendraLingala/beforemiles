@@ -1,0 +1,15 @@
+node_modules
+dist
+.wrangler
+.wrangler.deepspace.*.toml
+.dev.vars
+.dev.vars.*
+.deepspace
+.worker-bundle.js
+*.tgz
+src/router.ts
+src/modals.tsx
+.claude/launch.json
+.claude/worktrees
+test-results
+playwright-report
