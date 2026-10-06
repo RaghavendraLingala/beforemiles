@@ -270,9 +270,16 @@ reserved for the owner for 30 days after a rename.
 
 ### Source code
 
-The canonical repository is the app's **DeepSpace cloud repository**
-(git remote `space`, branch `main`):
-`https://deploy-worker.deep.space/api/repo/app_01M46SX8S4H1XGF30TX0PXJWM0`.
-Access requires being added as an app collaborator
-(`npx deepspace clone app_01M46SX8S4H1XGF30TX0PXJWM0` after being added).
-There is no GitHub repository.
+- **Public review copy (GitHub):** https://github.com/RaghavendraLingala/beforemiles — anyone can read it without
+  signing in. It was created from a clean snapshot of DeepSpace commit
+  `1c47e6a` with fresh Git history (no earlier history), and later
+  documentation-only updates are pushed to both repositories.
+- **Deployed application code:** commit `0531265`, release #15, at
+  https://beforemiles.app.space. The snapshot differs from it only in
+  documentation.
+- **Canonical repository:** the app's **DeepSpace cloud repository**
+  (git remote `space`, branch `main`):
+  `https://deploy-worker.deep.space/api/repo/app_01M46SX8S4H1XGF30TX0PXJWM0`.
+  It remains the source of truth and the only deployment source; the GitHub
+  copy is for review and is not used for deployment. Cloning the DeepSpace
+  repository requires being added as an app collaborator.

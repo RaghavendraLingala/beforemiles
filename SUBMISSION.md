@@ -1,8 +1,8 @@
 # BeforeMiles — Submission
 
 **Live app:** https://beforemiles.app.space
-**Source:** DeepSpace cloud repo for `app_01M46SX8S4H1XGF30TX0PXJWM0`, branch `main`
-(reviewer access: see "Delivery" below). Details: [README.md](./README.md).
+**Source (public review copy):** https://github.com/RaghavendraLingala/beforemiles
+(canonical: DeepSpace cloud repo for `app_01M46SX8S4H1XGF30TX0PXJWM0`, branch `main`; see "Delivery" below). Details: [README.md](./README.md).
 
 ## What I built and why
 
@@ -92,9 +92,14 @@ Not yet verified by me (only the items above were checked manually):
 - Source snapshot: a ZIP of a later, documentation-only commit (this file's
   verification update). Its application code is identical to `0531265`; it
   contains no Git history, secrets, local data, dependencies, or build output.
-- Source: DeepSpace cloud repository (remote `space`, branch `main`). The live
-  URL does not expose source code. **Reviewer access is not yet confirmed** —
-  the app currently has no collaborators.
+- Source for review: https://github.com/RaghavendraLingala/beforemiles (public). Created from the clean
+  snapshot of DeepSpace commit `1c47e6a` with fresh Git history; anonymous
+  read access was confirmed by an automated check on October 5, 2026 (repository
+  page, README, source, tests, lockfile, and SUBMISSION.md load without signing in).
+- Canonical source: the DeepSpace cloud repository (remote `space`, branch
+  `main`) remains the source of truth and the only deployment source. The
+  GitHub copy is a review copy and is not used for deployment. The live URL
+  does not expose source code.
 
 ---
 
